@@ -18,6 +18,7 @@
             Console.WriteLine("No student list found, using demo list.");
             Console.ReadKey();
             studentsFromFile = new List<string>() { "Stefan", "Gun", "Tröstur" };
+            //Testar för att se om det funkar att committa
         }
 
         Random randomGenerator = new();
